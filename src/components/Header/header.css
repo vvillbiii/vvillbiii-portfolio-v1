@@ -10,6 +10,17 @@
   color: white;
 }
 
+.header-font h1 {
+  flex: 1;
+  align-items: center;
+  font-size: 5rem;
+}
+
+.header-font p {
+  line-height: 0;
+  font-size: 18px;
+}
+
 .header-image {
   width: 500px;
   height: 494.06px;

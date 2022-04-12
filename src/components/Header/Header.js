@@ -1,5 +1,5 @@
 import React from "react";
-import VVill from "../../assests/VVill.png";
+import VVill from "../../assets/VVill.png";
 import "./header.css";
 
 export const Header = () => {

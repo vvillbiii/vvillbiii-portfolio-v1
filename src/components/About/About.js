@@ -14,8 +14,8 @@ const About = () => {
           attention to detail and my ability to meet deadlines.
         </p>
       </div>
-      <div>
-        <h2>Techologies I Work With</h2>
+      <div className="tech-section">
+        <h2>Technologies I Work With</h2>
       </div>
     </div>
   );

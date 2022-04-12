@@ -7,3 +7,21 @@
   margin: 4rem 6rem;
   color: white;
 }
+
+.about-section h2 {
+  font-size: 3rem;
+  margin-bottom: 0.4rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.tech-section {
+  padding: 1rem 3rem;
+  margin: 1rem 3rem;
+}
