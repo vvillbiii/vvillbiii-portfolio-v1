@@ -1,0 +1,14 @@
+.navbar {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: flex-start;
+  /* padding: 2rem 2rem; */
+  margin: 2rem 2rem;
+  color: white;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 30px;
+}

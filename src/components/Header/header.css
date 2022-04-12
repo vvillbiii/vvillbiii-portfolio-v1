@@ -1,0 +1,16 @@
+.header-section {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 4rem 6rem;
+  margin: 4rem 6rem;
+}
+
+.header-font {
+  color: white;
+}
+
+.header-image {
+  width: 500px;
+  height: 494.06px;
+}
