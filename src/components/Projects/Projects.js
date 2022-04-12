@@ -3,8 +3,9 @@ import "./projects.css";
 const Projects = () => {
   return (
     <div className="project-section">
-      <h1>Projects</h1>
+      <h2>Projects</h2>
       <div>
+        <h3>Project Name</h3>
         <p>Image</p>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl
@@ -18,6 +19,7 @@ const Projects = () => {
         </p>
       </div>
       <div>
+        <h3>Project Name</h3>
         <p>Image</p>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl
@@ -31,6 +33,7 @@ const Projects = () => {
         </p>
       </div>
       <div>
+        <h3>Project Name</h3>
         <p>Image</p>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl

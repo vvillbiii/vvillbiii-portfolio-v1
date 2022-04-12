@@ -5,5 +5,18 @@
   flex-direction: column;
   padding: 4rem 6rem;
   margin: 4rem 6rem;
-  color: white;
+  color: black;
+}
+
+.project-section h2 {
+  font-size: 3rem;
+  margin-bottom: 0.4rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.project-section h3 {
+  font-size: 2rem;
+  margin-bottom: 0.4rem;
 }

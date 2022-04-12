@@ -1,8 +1,12 @@
 .navbar {
+  padding-top: 1rem;
+}
+
+.navbar-menu {
   display: flex;
 
   justify-content: space-between;
-  margin: 2rem 2rem;
+  margin: 0rem 5rem;
 }
 
 .logo {

@@ -4,6 +4,20 @@
   justify-content: space-between;
   flex-direction: column;
   padding: 4rem 6rem;
-  margin: 4rem 6rem;
+  /* margin: 4rem 6rem; */
   color: white;
+}
+
+.contact-section h2 {
+  font-size: 3rem;
+  margin-bottom: 0.4rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.contact-section p {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
 }

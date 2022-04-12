@@ -2,8 +2,8 @@ import "./navbar.css";
 
 const Navbar = () => {
   return (
-    <div>
-      <div className="navbar">
+    <div className="navbar">
+      <div className="navbar-menu">
         <p className="logo">Will Bowles</p>
         <p>
           <a href="">Home</a>
