@@ -1,0 +1,8 @@
+.end-section {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 4rem 6rem;
+  color: white;
+  font-size: 10px;
+}

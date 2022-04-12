@@ -8,10 +8,13 @@ const About = () => {
         <p>
           A software engineer with a background in SEO and digital marketing.
           Finding new ways to solve problems and learning new skills are
-          interests of mine. In addition to solving problems independently, I
-          value collaboration because there is more than one way to achieve an
-          answer, and everyone’s input is valuable. My strengths are my
-          attention to detail and my ability to meet deadlines.
+          interests of mine.
+          <br /> In addition to solving problems independently, I value
+          collaboration because there is more than one way to achieve an answer,
+          and everyone’s input is valuable.
+          <br />
+          My strengths are my attention to detail and my ability to meet
+          deadlines.
         </p>
       </div>
       <div className="tech-section">
