@@ -5,15 +5,24 @@
   margin: 0;
 }
 
-.hero-section,
+.hero-section {
+  background-image: url(./assets/5172658.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  height: 100vh;
+}
+
+.about-section {
+  background-color: #e02882;
+}
+
 .footer-section {
   background-image: url(./assets/5172658.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
-}
-
-.about-section {
-  background-color: #e02882;
+  height: 50vh;
 }
