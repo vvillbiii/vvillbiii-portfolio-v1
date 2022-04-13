@@ -21,3 +21,11 @@
   display: flex;
   justify-content: center;
 }
+
+.contact-icons {
+  margin-top: 1rem;
+  display: flex;
+
+  justify-content: center;
+  filter: brightness(0) invert(1);
+}

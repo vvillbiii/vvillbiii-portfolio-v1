@@ -3,7 +3,7 @@
 
   justify-content: space-between;
   flex-direction: column;
-  padding: 4rem 6rem;
+  padding: 3rem 6rem;
   /* margin: 4rem 0rem; */
   color: white;
 }
@@ -19,9 +19,28 @@
 .about-section p {
   font-size: 18px;
   line-height: 1.25;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .tech-section {
   padding: 1rem 3rem;
   margin: 1rem 3rem;
+}
+
+.icon-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  filter: brightness(0) invert(1);
+}
+
+.tech-icon {
+  height: 75px;
+  width: 75px;
+
+  margin: 0rem 1rem;
 }

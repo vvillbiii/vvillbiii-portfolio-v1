@@ -5,21 +5,23 @@ const Navbar = () => {
     <div className="navbar">
       <div className="navbar-menu">
         <p className="logo">Will Bowles</p>
-        <p>
-          <a href="">Home</a>
-        </p>
-        <p>
-          <a href="">About</a>
-        </p>
-        <p>
-          <a href="">Projects</a>
-        </p>
-        <p>
-          <a href="">Contact</a>
-        </p>
-        <p>
-          <a href="">Resume</a>
-        </p>
+        <div className="navbar-links">
+          <p>
+            <a href="">Home</a>
+          </p>
+          <p>
+            <a href="">About</a>
+          </p>
+          <p>
+            <a href="">Projects</a>
+          </p>
+          <p>
+            <a href="">Contact</a>
+          </p>
+          <p>
+            <a href="">Resume</a>
+          </p>
+        </div>
       </div>
     </div>
   );

@@ -2,7 +2,8 @@
   display: flex;
 
   justify-content: space-between;
-  padding: 4rem 6rem;
+  padding: 0rem 6rem;
+  margin-top: 4rem;
   color: white;
   font-size: 10px;
 }

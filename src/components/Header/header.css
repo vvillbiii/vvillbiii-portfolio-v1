@@ -1,17 +1,17 @@
 .header-section {
   display: flex;
 
-  justify-content: space-between;
+  justify-content: center;
   padding: 4rem 6rem;
   /* margin: 4rem 6rem; */
 }
 
 .header-font {
+  margin: 15rem 14rem;
   color: white;
 }
 
 .header-font h1 {
-  flex: 1;
   align-items: center;
   font-size: 5rem;
 }
@@ -22,6 +22,8 @@
 }
 
 .header-image {
-  width: 500px;
-  height: 494.06px;
+  width: 400px;
+  height: 390.06px;
+  margin-top: 5rem;
+  margin-right: 20rem;
 }
