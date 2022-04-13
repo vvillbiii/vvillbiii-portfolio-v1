@@ -21,6 +21,10 @@
   margin-bottom: 0.4rem;
 }
 
+.project-section p {
+  font-family: "Roboto", sans-serif;
+}
+
 .project {
   display: flex;
   flex-direction: column;

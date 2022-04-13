@@ -17,6 +17,7 @@
 }
 
 .header-font p {
+  font-family: "Roboto", sans-serif;
   line-height: 0;
   font-size: 18px;
 }

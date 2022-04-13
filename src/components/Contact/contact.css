@@ -17,6 +17,7 @@
 }
 
 .contact-section p {
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   display: flex;
   justify-content: center;
