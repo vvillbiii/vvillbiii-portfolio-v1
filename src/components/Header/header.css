@@ -1,19 +1,30 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  padding: 0rem 1rem;
+  margin: 0rem auto;
+  /* border: 5px solid green; */
+}
+
 .header-section {
   display: flex;
-
-  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 4rem;
   padding: 4rem 6rem;
-  /* margin: 4rem 6rem; */
+  margin: 4rem auto;
+
+  /* border: 5px solid red; */
 }
 
 .header-font {
-  margin: 15rem 14rem;
   color: white;
 }
 
 .header-font h1 {
-  align-items: center;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .header-font p {
@@ -25,6 +36,4 @@
 .header-image {
   width: 400px;
   height: 390.06px;
-  margin-top: 5rem;
-  margin-right: 20rem;
 }

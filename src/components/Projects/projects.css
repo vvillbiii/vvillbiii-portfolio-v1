@@ -1,11 +1,24 @@
 .project-section {
-  display: flex;
+  /* display: flex; */
 
-  justify-content: center;
-  flex-direction: column;
+  /* justify-content: center;
+  flex-direction: column; */
   padding: 0rem 6rem;
   margin: 4rem 6rem;
   color: black;
+}
+
+.project-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.project-right {
+  flex: 1;
+  position: relative;
 }
 
 .project-section h2 {
@@ -23,6 +36,13 @@
 
 .project-section p {
   font-family: "Roboto", sans-serif;
+  width: 50%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.project-section img {
+  width: 25%;
 }
 
 .project {
@@ -35,7 +55,11 @@
   flex-direction: column;
 }
 
-img {
+.right {
+  display: flex;
+  justify-content: end;
+}
+/* img {
   width: 350px;
   height: 200px;
-}
+} */

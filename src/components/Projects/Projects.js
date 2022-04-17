@@ -9,7 +9,7 @@ const Projects = () => {
       <h2>Projects</h2>
       <div className="project">
         <h3>Conscious Culture Reads</h3>
-        <img src={Conscious} />
+        <img src={Conscious} alt="Conscious Culture Reads Image" />
         <div className="project-content">
           <p>
             Conscious Culture Reads allows you explore article that has been
@@ -18,11 +18,11 @@ const Projects = () => {
             want. Conscious Culture Reads also let's you create notes on what
             you read so you have a place to put your takeaways.
           </p>
+          <button>Live Site</button>
+          <button>Github</button>
         </div>
       </div>
-      <div>
-        <h3>Nomad Atlas</h3>
-        <img src={Nomad} />
+      <div className="right">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl
           eros, pulvinar facilisis justo mollis, auctor consequat urna. Morbi a
@@ -33,20 +33,30 @@ const Projects = () => {
           lacus, lacinia quis posuere ut, pulvinar vitae dolor. Integer eu nibh
           at nisi ullamcorper sagittis id ve
         </p>
+        <button>Live Site</button>
+        <button>Github</button>
+        <h3>Nomad Atlas</h3>
+        <img src={Nomad} alt="Nomad Atlas Image" />
       </div>
       <div>
-        <h3>AliemT</h3>
-        <img src={Aliment} />
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl
-          eros, pulvinar facilisis justo mollis, auctor consequat urna. Morbi a
-          bibendum metus. Donec scelerisque sollicitudin enim eu venenatis. Duis
-          tincidunt laoreet ex, in pretium orci vestibulum eget. Class aptent
-          taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-          himenaeos. Duis pharetra luctus lacus ut vestibulum. Maecenas ipsum
-          lacus, lacinia quis posuere ut, pulvinar vitae dolor. Integer eu nibh
-          at nisi ullamcorper sagittis id ve
-        </p>
+        <div className="project-left">
+          <h3>AlimenT</h3>
+          <img src={Aliment} alt="Aliment Image" />
+        </div>
+        <div className="project-right">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+            nisl eros, pulvinar facilisis justo mollis, auctor consequat urna.
+            Morbi a bibendum metus. Donec scelerisque sollicitudin enim eu
+            venenatis. Duis tincidunt laoreet ex, in pretium orci vestibulum
+            eget. Class aptent taciti sociosqu ad litora torquent per conubia
+            nostra, per inceptos himenaeos. Duis pharetra luctus lacus ut
+            vestibulum. Maecenas ipsum lacus, lacinia quis posuere ut, pulvinar
+            vitae dolor. Integer eu nibh at nisi ullamcorper sagittis id ve
+          </p>
+          <button>Live Site</button>
+          <button>Github</button>
+        </div>
       </div>
     </div>
   );
