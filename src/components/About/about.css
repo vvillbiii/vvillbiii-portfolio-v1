@@ -1,10 +1,22 @@
+.about-container {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  padding: 0rem 11rem;
+  margin: 0rem auto;
+  background-color: #701040;
+  /* border: 5px solid green; */
+}
+
 .about-section {
   display: flex;
-
-  justify-content: space-between;
   flex-direction: column;
-  padding: 3rem 6rem;
-  /* margin: 4rem 0rem; */
+  justify-items: center;
+  align-items: center;
+  padding: 0rem 10rem;
+  margin: 4rem auto;
+  /* border: 5px solid red; */
+
   color: white;
 }
 
@@ -12,18 +24,13 @@
   font-size: 3rem;
   margin-bottom: 0.4rem;
 
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .about-section p {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   line-height: 1.25;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .tech-section {
@@ -39,9 +46,13 @@
   filter: brightness(0) invert(1);
 }
 
+.icon-section img {
+  max-width: 50rem;
+}
+
 .tech-icon {
-  height: 75px;
-  width: 75px;
+  height: 50px;
+  width: 50px;
 
   margin: 0rem 1rem;
 }

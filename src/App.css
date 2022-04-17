@@ -21,10 +21,10 @@
   height: 100vh;
 }
 
-.about-section {
-  /* background-color: #e02882; */
-  background-color: #701040;
-}
+/* .about-section {
+background-color: #e02882; 
+ background-color: #701040;
+ } */
 
 .footer-section {
   background-image: url(./assets/5172658.jpg);

@@ -13,9 +13,7 @@ function App() {
         <Navbar />
         <Header />
       </div>
-      <div className="about-section">
-        <About />
-      </div>
+      <About />
       <Projects />
       <div className="footer-section">
         <Contact />
