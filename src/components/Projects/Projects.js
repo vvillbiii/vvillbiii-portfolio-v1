@@ -20,7 +20,9 @@ const Projects = () => {
               you read so you have a place to put your takeaways.
             </p>
             <div className="project-buttons">
-              <button className="live-link">Live Site</button>
+              <a href="https://ccreads.netlify.app/">
+                <button className="live-link">Live Site</button>
+              </a>
               <a href="https://github.com/vvillbiii/ccreads-frontend">
                 <button className="github-link">Github</button>
               </a>
@@ -43,8 +45,12 @@ const Projects = () => {
               id ve
             </p>
             <div className="project-buttons">
-              <button className="live-link">Live Site</button>
-              <button className="github-link">Github</button>
+              <a href="http://nomad-atlas.herokuapp.com/">
+                <button className="live-link">Live Site</button>
+              </a>
+              <a href="https://github.com/jajoyce/Nomad">
+                <button className="github-link">Github</button>
+              </a>
             </div>
           </div>
         </div>
@@ -65,8 +71,12 @@ const Projects = () => {
                 sagittis id ve
               </p>
               <div className="project-buttons">
-                <button className="live-link">Live Site</button>
-                <button className="github-link">Github</button>
+                <a href="http://morning-falls-40233.herokuapp.com/">
+                  <button className="live-link">Live Site</button>
+                </a>
+                <a href="">
+                  <button className="github-link">Github</button>
+                </a>
               </div>
             </div>
           </div>
