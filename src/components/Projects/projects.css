@@ -98,7 +98,7 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 644px) {
+@media screen and (max-width: 750px) {
   .project-section {
     display: flex;
     flex-direction: column;
