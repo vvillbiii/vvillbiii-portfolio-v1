@@ -96,3 +96,32 @@
   color: white;
   font-weight: bold;
 }
+
+@media screen and (max-width: 480px) {
+  .project-section {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 0rem 3rem;
+  }
+
+  .project-one {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-two {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-three {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-section img {
+    max-width: 100%;
+  }
+}

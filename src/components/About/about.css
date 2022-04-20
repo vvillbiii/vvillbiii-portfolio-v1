@@ -2,7 +2,7 @@
   display: flex;
   justify-items: center;
   align-items: center;
-  padding: 0rem 11rem;
+  padding: 4rem 0rem;
   margin: 0rem auto;
   background-color: #701040;
   /* border: 5px solid green; */
@@ -13,8 +13,8 @@
   flex-direction: column;
   justify-items: center;
   align-items: center;
-  padding: 0rem 10rem;
-  margin: 4rem auto;
+  padding: 0rem 3rem;
+  margin: 0rem auto;
   /* border: 5px solid red; */
 
   color: white;
@@ -55,4 +55,19 @@
   width: 50px;
 
   margin: 0rem 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .about-section h2 {
+    font-size: 2rem;
+  }
+
+  .about-section p {
+    font-size: 15px;
+  }
+
+  .tech-icon {
+    height: 30px;
+    width: 30px;
+  }
 }

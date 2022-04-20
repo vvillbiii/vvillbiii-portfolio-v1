@@ -30,9 +30,32 @@
   font-family: "Roboto", sans-serif;
   line-height: 0;
   font-size: 18px;
+  overflow-wrap: break-word;
 }
 
 .header-image {
   width: 400px;
   height: 390.06px;
+}
+
+@media screen and (max-width: 480px) {
+  .header-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-font h1 {
+    font-size: 2.5rem;
+  }
+
+  .header-font p {
+    font-family: "Roboto", sans-serif;
+    line-height: 0;
+    font-size: 10px;
+  }
+
+  .header-image {
+    width: 250px;
+    height: 250.06px;
+  }
 }
