@@ -3,8 +3,14 @@
 
   justify-content: space-between;
   padding: 0rem 6rem;
-  margin-top: 4rem;
+  margin: 2rem 0rem;
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 10px;
+}
+
+@media screen and (max-width: 751px) {
+  .end-section {
+    font-size: 8px;
+  }
 }

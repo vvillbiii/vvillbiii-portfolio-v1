@@ -5,7 +5,6 @@
   padding: 4rem 0rem;
   margin: 0rem auto;
   background-color: #701040;
-  /* border: 5px solid green; */
 }
 
 .about-section {
@@ -15,7 +14,6 @@
   align-items: center;
   padding: 0rem 3rem;
   margin: 0rem auto;
-  /* border: 5px solid red; */
 
   color: white;
 }
@@ -83,5 +81,16 @@
   .tech-icon {
     height: 40px;
     width: 40px;
+  }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1024px) {
+  .about-section h2 {
+    font-size: 2.5rem;
+  }
+
+  .tech-icon {
+    height: 45px;
+    width: 45px;
   }
 }

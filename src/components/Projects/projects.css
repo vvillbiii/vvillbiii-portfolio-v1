@@ -27,7 +27,7 @@
 }
 
 .project-section img {
-  max-width: 30%;
+  max-width: 50%;
 }
 
 .project-section h3 {
@@ -99,6 +99,35 @@
 }
 
 @media screen and (max-width: 750px) {
+  .project-section {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 0rem 3rem;
+  }
+
+  .project-one {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-two {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-three {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-section img {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1024px) {
   .project-section {
     display: flex;
     flex-direction: column;
