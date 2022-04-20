@@ -13,11 +13,12 @@ const Projects = () => {
           <div className="project-one__content">
             <h3>Conscious Culture Reads</h3>
             <p>
-              Conscious Culture Reads allows you explore article that has been
-              shared on the Conscious Culture newsletter and save them to your
-              profile, so you can always revisit your favorite reads anytime you
-              want. Conscious Culture Reads also let's you create notes on what
-              you read so you have a place to put your takeaways.
+              Conscious Culture Reads is a MERN stack project. Conscious Culture
+              Reads allows you explore article that has been shared on the
+              Conscious Culture newsletter and save them to your profile, so you
+              can always revisit your favorite reads anytime you want. Conscious
+              Culture Reads also let's you create notes on what you read so you
+              have a place to put your takeaways.
             </p>
             <div className="project-buttons">
               <a href="https://ccreads.netlify.app/">
@@ -34,15 +35,10 @@ const Projects = () => {
           <div className="project-two__content">
             <h3>Nomad Atlas</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              nisl eros, pulvinar facilisis justo mollis, auctor consequat urna.
-              Morbi a bibendum metus. Donec scelerisque sollicitudin enim eu
-              venenatis. Duis tincidunt laoreet ex, in pretium orci vestibulum
-              eget. Class aptent taciti sociosqu ad litora torquent per conubia
-              nostra, per inceptos himenaeos. Duis pharetra luctus lacus ut
-              vestibulum. Maecenas ipsum lacus, lacinia quis posuere ut,
-              pulvinar vitae dolor. Integer eu nibh at nisi ullamcorper sagittis
-              id ve
+              Nomad Atlas is a collaboration project built with python, django,
+              and postgreSQL. Nomad Atlas lets users add post to cities they've
+              traveled to. Nomads, Nomad Atlas users, can leave comments on post
+              to engage with the author.
             </p>
             <div className="project-buttons">
               <a href="http://nomad-atlas.herokuapp.com/">
@@ -60,15 +56,9 @@ const Projects = () => {
             <div className="project-three__content">
               <h3>AlimenT</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                nisl eros, pulvinar facilisis justo mollis, auctor consequat
-                urna. Morbi a bibendum metus. Donec scelerisque sollicitudin
-                enim eu venenatis. Duis tincidunt laoreet ex, in pretium orci
-                vestibulum eget. Class aptent taciti sociosqu ad litora torquent
-                per conubia nostra, per inceptos himenaeos. Duis pharetra luctus
-                lacus ut vestibulum. Maecenas ipsum lacus, lacinia quis posuere
-                ut, pulvinar vitae dolor. Integer eu nibh at nisi ullamcorper
-                sagittis id ve
+                Aliment is a MEN stack collaboration project. Aliment lets users
+                create a profile, that enables them to add restuarants for other
+                users to leave reviews own.
               </p>
               <div className="project-buttons">
                 <a href="http://morning-falls-40233.herokuapp.com/">
