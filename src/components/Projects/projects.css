@@ -86,6 +86,7 @@
   border: none;
   background: #701040;
   color: white;
+  font-weight: bold;
 }
 
 .github-link {
@@ -93,4 +94,5 @@
   border: none;
   background: #030836;
   color: white;
+  font-weight: bold;
 }
