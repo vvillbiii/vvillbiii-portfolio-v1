@@ -1,4 +1,5 @@
 import "./navbar.css";
+import Resume from "../../assets/Resume.pdf";
 
 const Navbar = () => {
   return (
@@ -7,19 +8,19 @@ const Navbar = () => {
         <p className="logo">Will Bowles</p>
         <div className="navbar-links">
           <p>
-            <a href="">Home</a>
+            <a href="#home">Home</a>
           </p>
           <p>
-            <a href="">About</a>
+            <a href="#about">About</a>
           </p>
           <p>
-            <a href="">Projects</a>
+            <a href="#project">Projects</a>
           </p>
           <p>
-            <a href="">Contact</a>
+            <a href="#contact">Contact</a>
           </p>
           <p>
-            <a href="">Resume</a>
+            <a href={Resume}>Resume</a>
           </p>
         </div>
       </div>

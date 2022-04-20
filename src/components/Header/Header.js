@@ -4,7 +4,7 @@ import "./header.css";
 
 export const Header = () => {
   return (
-    <div className="header-container">
+    <div className="header-container" id="home">
       <div className="header-section">
         <div className="header-font">
           <p>Hi, my name is</p>

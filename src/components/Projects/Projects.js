@@ -5,7 +5,7 @@ import Conscious from "../../assets/Conscious Culture Reads.png";
 
 const Projects = () => {
   return (
-    <div className="project-container">
+    <div className="project-container" id="project">
       <div className="project-section">
         <h2>Projects</h2>
         <div className="project-one">
