@@ -58,14 +58,14 @@
 @media screen and (max-width: 479px) {
   .about-section {
     padding: 0rem 0rem;
-    margin: 0rem 0.5rem;
+    margin: 0rem 0.2rem;
   }
   .about-section h2 {
     font-size: 2rem;
   }
 
   .about-section p {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .tech-icon {
