@@ -55,7 +55,26 @@
   margin: 0rem 1rem;
 }
 
-@media screen and (max-width: 644px) {
+@media screen and (max-width: 479px) {
+  .about-section {
+    padding: 0rem 0rem;
+    margin: 0rem 0.5rem;
+  }
+  .about-section h2 {
+    font-size: 2rem;
+  }
+
+  .about-section p {
+    font-size: 12px;
+  }
+
+  .tech-icon {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 644px) {
   .about-section {
     padding: 0rem 1rem;
   }

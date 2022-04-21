@@ -12,7 +12,7 @@
   justify-items: center;
   align-items: center;
   gap: 4rem;
-  padding: 4rem 6rem;
+  padding: 4rem 8rem;
   margin: 4rem auto;
 }
 
@@ -36,7 +36,26 @@
   height: 390.06px;
 }
 
-@media screen and (max-width: 644px) {
+@media screen and (max-width: 479px) {
+  .header-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-font h1 {
+    font-size: 1.5rem;
+  }
+  .header-font p {
+    font-size: 12px;
+  }
+
+  .header-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 644px) {
   .header-section {
     display: flex;
     flex-direction: column;
