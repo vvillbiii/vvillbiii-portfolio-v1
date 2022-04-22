@@ -9,7 +9,11 @@ const Projects = () => {
       <div className="project-section">
         <h2>Projects</h2>
         <div className="project-one">
-          <img src={Conscious} alt="Conscious Culture Reads" />
+          <img
+            src={Conscious}
+            alt="Conscious Culture Reads"
+            className="scale-up-center"
+          />
           <div className="project-one__content">
             <h3>Conscious Culture Reads</h3>
             <p>
@@ -31,7 +35,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-two">
-          <img src={Nomad} alt="Nomad Atlas" />
+          <img src={Nomad} alt="Nomad Atlas" className="scale-up-center" />
           <div className="project-two__content">
             <h3>Nomad Atlas</h3>
             <p>
@@ -52,7 +56,7 @@ const Projects = () => {
         </div>
         <div>
           <div className="project-three">
-            <img src={Aliment} alt="Aliment" />
+            <img src={Aliment} alt="Aliment" className="scale-up-center" />
             <div className="project-three__content">
               <h3>AlimenT</h3>
               <p>
