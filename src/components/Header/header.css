@@ -22,12 +22,13 @@
 
 .header-font h1 {
   font-size: 4rem;
+  font-weight: 900;
 }
 
 .header-font p {
-  font-family: "Roboto", sans-serif;
   line-height: 1.25;
   font-size: 18px;
+  font-weight: 300;
   overflow-wrap: break-word;
 }
 
