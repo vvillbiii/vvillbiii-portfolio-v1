@@ -30,6 +30,10 @@
 }
 
 @media screen and (max-width: 644px) {
+  .navbar-menu {
+    margin: 0rem 1rem;
+  }
+
   .logo {
     font-size: 20px;
   }
