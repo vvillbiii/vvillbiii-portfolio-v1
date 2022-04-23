@@ -2,12 +2,31 @@ import "./projects.css";
 import Aliment from "../../assets/Aliment.png";
 import Nomad from "../../assets/Nomad-Atlas.png";
 import Conscious from "../../assets/Conscious Culture Reads.png";
+import Blog from "../../assets/Will-Blog.png";
 
 const Projects = () => {
   return (
     <div className="project-container" id="project">
       <div className="project-section">
         <h2>Projects</h2>
+        <div className="project-two">
+          <img src={Blog} alt="Will Bowles Blog" className="scale-up-center" />
+          <div className="project-two__content">
+            <h3>Will Bowles Blog</h3>
+            <p>
+              My Blog site was created using Next.js, and TailwindCSS. My Blog
+              is using Contentful as headless CMS for the essay content.
+            </p>
+            <div className="project-buttons">
+              <a href="https://willbowles.co/">
+                <button className="live-link">Live Site</button>
+              </a>
+              <a href="https://github.com/vvillbiii/will-blog">
+                <button className="github-link">Github</button>
+              </a>
+            </div>
+          </div>
+        </div>
         <div className="project-one">
           <img
             src={Conscious}
