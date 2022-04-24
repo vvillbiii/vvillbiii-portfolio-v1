@@ -15,7 +15,7 @@ const Projects = () => {
             <h3>Will Bowles Blog</h3>
             <p>
               My Blog site was created using Next.js, and TailwindCSS. My Blog
-              is using Contentful as headless CMS for the essay content.
+              is using Contentful as a headless CMS for the essay content.
             </p>
             <div className="project-buttons">
               <a href="https://willbowles.co/">
