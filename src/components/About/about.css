@@ -1,21 +1,24 @@
 .about-container {
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  padding: 4rem 0rem;
-  margin: 0rem auto;
   background-color: #701040;
-}
 
-.about-section {
   display: flex;
   flex-direction: column;
   justify-items: center;
   align-items: center;
-  padding: 0rem 3rem;
   margin: 0rem auto;
+  width: 100%;
+}
 
+.about-section {
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin: 4rem auto;
+  padding: 0rem 4rem;
+
+  max-width: 95rem;
 }
 
 .about-section h2 {
@@ -57,15 +60,12 @@
 
 @media screen and (max-width: 479px) {
   .about-section {
-    padding: 0rem 0rem;
+    padding: 2rem 2rem;
     margin: 0rem 0rem;
+    max-width: 80%;
   }
   .about-section h2 {
     font-size: 2rem;
-  }
-
-  .about-section p {
-    font-size: 14px;
   }
 
   .tech-icon {
@@ -80,10 +80,6 @@
   }
   .about-section h2 {
     font-size: 2rem;
-  }
-
-  .about-section p {
-    font-size: 15px;
   }
 
   .tech-icon {

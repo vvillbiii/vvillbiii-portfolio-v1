@@ -33,6 +33,7 @@
 @media screen and (max-width: 750px) {
   .contact-section h2 {
     font-size: 2rem;
+    text-align: center;
   }
 
   .contact-section p {
