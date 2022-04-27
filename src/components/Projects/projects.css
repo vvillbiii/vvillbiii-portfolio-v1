@@ -91,12 +91,20 @@
   font-weight: bold;
 }
 
+.live-link:hover {
+  background: #a71960;
+}
+
 .github-link {
   padding: 0.5rem;
   border: none;
   background: #030836;
   color: white;
   font-weight: bold;
+}
+
+.github-link:hover {
+  background: #1e2ba7;
 }
 
 @media screen and (max-width: 750px) {
