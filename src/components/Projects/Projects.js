@@ -14,8 +14,11 @@ const Projects = () => {
           <div className="project-two__content">
             <h3>Will Bowles Blog</h3>
             <p>
-              My Blog site was created using Next.js, and TailwindCSS. My Blog
-              is using Contentful as a headless CMS for the essay content.
+              My blog site was created using Next.js, and TailwindCSS. My blog
+              is using Contentful as a headless CMS for the essay content. The
+              essays are my wirtings on various topics that interest in me. The
+              main reason I built the site with Next is beacuse Next is good for
+              SEO.
             </p>
             <div className="project-buttons">
               <a href="https://willbowles.co/">
