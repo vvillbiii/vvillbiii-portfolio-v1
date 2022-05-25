@@ -9,16 +9,15 @@ const About = () => {
           <h2>About Me</h2>
           <div className="about-section__content">
             <p>
-              I'm software engineer with a background in SEO and digital
-              marketing. Finding new ways to solve problems and learning new
-              skills are interests of mine.
+              As a full-stack developer, I have a wide range of skills and
+              experience that I can bring to your company. I have experience
+              with both front-end and back-end development, as well as
+              experience with a variety of programming languages.
             </p>
             <br />
             <p>
-              In addition to solving problems independently, I value
-              collaboration because there is more than one way to achieve an
-              answer, and everyone’s input is valuable. My strengths are my
-              attention to detail and my ability to meet deadlines.
+              I am a quick learner and have a knack for problem-solving, which
+              makes me an asset on any development team.
             </p>
           </div>
         </div>
