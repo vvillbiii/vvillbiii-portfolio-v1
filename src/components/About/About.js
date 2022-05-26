@@ -12,7 +12,8 @@ const About = () => {
               As a full-stack developer, I have a wide range of skills and
               experience that I can bring to your company. I have experience
               with both front-end and back-end development, as well as
-              experience with a variety of programming languages.
+              experience with a variety of programming languages and frameworks
+              such as JavaScript, Python, React, and Next.
             </p>
             <br />
             <p>
