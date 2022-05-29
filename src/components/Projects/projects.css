@@ -5,7 +5,6 @@
   align-items: center;
   margin: 0rem auto;
   color: black;
-  /* border: 5px solid green; */
 }
 
 .project-section {
@@ -15,7 +14,6 @@
   align-items: center;
   margin: 4rem auto;
   padding: 0rem 4rem;
-  /* border: 5px solid red; */
   max-width: 95rem;
 }
 
@@ -86,25 +84,29 @@
 
   padding: 0.5rem;
   border: none;
-  background: #701040;
+  /* background: #701040; */
+  background: #8d4066;
   color: white;
   font-weight: bold;
 }
 
 .live-link:hover {
-  background: #a71960;
+  /* background: #a71960; */
+  background: #b888a0;
 }
 
 .github-link {
   padding: 0.5rem;
   border: none;
-  background: #030836;
+  /* background: #030836; */
+  background: #4f5272;
   color: white;
   font-weight: bold;
 }
 
 .github-link:hover {
-  background: #1e2ba7;
+  /* background: #1e2ba7; */
+  background: #9a9caf;
 }
 
 @media screen and (max-width: 750px) {
