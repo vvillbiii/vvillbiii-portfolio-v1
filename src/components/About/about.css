@@ -1,24 +1,24 @@
 .about-container {
   background-color: #701040;
 
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-items: center;
-  align-items: center;
-  margin: 0rem auto;
-  width: 100%;
+  align-items: center; */
+  /* margin: 0rem auto; */
+  /* width: 100%; */
 }
 
 .about-section {
   color: white;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column;
   justify-items: center;
-  align-items: center;
-  margin: 4rem auto;
-  padding: 0rem 4rem;
-
-  max-width: 95rem;
+  align-items: center; */
+  /* margin: 4rem auto; */
+  padding: 4rem 4rem;
+  margin: 0 auto;
+  /* max-width: 95rem; */
 }
 
 .about-section h2 {
@@ -29,14 +29,16 @@
 }
 
 .about-section p {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 1.25;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .tech-section {
-  padding: 1rem 3rem;
-  margin: 1rem 3rem;
+  padding: 2rem 0;
+  /* margin: 0rem auto; */
 }
 
 .icon-section {
@@ -60,9 +62,9 @@
 
 @media screen and (max-width: 479px) {
   .about-section {
-    padding: 2rem 2rem;
-    margin: 0rem 0rem;
-    max-width: 80%;
+    padding: 1rem 0;
+    max-width: 90%;
+    margin: 0 auto;
   }
   .about-section h2 {
     font-size: 2rem;
@@ -76,7 +78,9 @@
 
 @media screen and (min-width: 480px) and (max-width: 644px) {
   .about-section {
-    padding: 0rem 1rem;
+    padding: 1rem 0;
+    margin: 0 auto;
+    max-width: 90%;
   }
   .about-section h2 {
     font-size: 2rem;

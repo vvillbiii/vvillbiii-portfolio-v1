@@ -10,7 +10,11 @@ const Projects = () => {
       <div className="project-section">
         <h2>Projects</h2>
         <div className="project-two">
-          <img src={Blog} alt="Will Bowles Blog" className="scale-up-center" />
+          <img
+            src={Blog}
+            alt="Will Bowles Blog"
+            className="scale-up-center project-img"
+          />
           <div className="project-two__content">
             <h3>Will Bowles Blog</h3>
             <p>
@@ -76,27 +80,27 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div>
-          <div className="project-three">
-            <img src={Aliment} alt="Aliment" className="scale-up-center" />
-            <div className="project-three__content">
-              <h3>AlimenT</h3>
-              <p>
-                Aliment is a MEN stack collaboration project. Aliment lets users
-                create a profile, that enables them to add restuarants for other
-                users to leave reviews own.
-              </p>
-              <div className="project-buttons">
-                <a href="http://morning-falls-40233.herokuapp.com/">
-                  <button className="live-link">Live Site</button>
-                </a>
-                <a href="http://morning-falls-40233.herokuapp.com/">
-                  <button className="github-link">Github</button>
-                </a>
-              </div>
+        {/* <div> */}
+        <div className="project-three">
+          <img src={Aliment} alt="Aliment" className="scale-up-center" />
+          <div className="project-three__content">
+            <h3>AlimenT</h3>
+            <p>
+              Aliment is a MEN stack collaboration project. Aliment lets users
+              create a profile, that enables them to add restuarants for other
+              users to leave reviews own.
+            </p>
+            <div className="project-buttons">
+              <a href="http://morning-falls-40233.herokuapp.com/">
+                <button className="live-link">Live Site</button>
+              </a>
+              <a href="http://morning-falls-40233.herokuapp.com/">
+                <button className="github-link">Github</button>
+              </a>
             </div>
           </div>
         </div>
+        {/* </div> */}
       </div>
     </div>
   );

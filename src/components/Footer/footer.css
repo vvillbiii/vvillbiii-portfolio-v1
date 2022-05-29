@@ -1,9 +1,9 @@
 .end-section {
   display: flex;
 
-  justify-content: space-between;
-  padding: 0rem 6rem;
-  margin: 2rem 0rem;
+  justify-content: space-evenly;
+  padding: 1rem 6rem;
+  /* margin: 2rem 0rem; */
   color: white;
   font-size: 10px;
 }
