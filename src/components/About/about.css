@@ -11,14 +11,8 @@
 
 .about-section {
   color: white;
-  /* display: flex; */
-  /* flex-direction: column;
-  justify-items: center;
-  align-items: center; */
-  /* margin: 4rem auto; */
   padding: 4rem 4rem;
   margin: 0 auto;
-  /* max-width: 95rem; */
 }
 
 .about-section h2 {
@@ -38,7 +32,6 @@
 
 .tech-section {
   padding: 2rem 0;
-  /* margin: 0rem auto; */
 }
 
 .icon-section {

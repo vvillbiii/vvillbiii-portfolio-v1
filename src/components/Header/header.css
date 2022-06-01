@@ -1,18 +1,7 @@
-/* .header-container { 
-  /* display: flex; */
-/* flex-direction: row;
-  justify-items: center;
-  align-items: center; */
-/* padding: 0rem 1rem;
-  margin: 0rem auto; 
-}*/
-
 .header-section {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* justify-items: center;
-  align-items: center; */
   gap: 1rem;
   padding: 4rem 8rem;
   margin: 0rem auto;
@@ -36,9 +25,7 @@
 }
 
 .header-image {
-  /* width: 400px; */
   width: 31em;
-  /* height: 390.06px; */
   height: auto;
 }
 
