@@ -94,7 +94,7 @@ const Projects = () => {
               <a href="http://morning-falls-40233.herokuapp.com/">
                 <button className="live-link">Live Site</button>
               </a>
-              <a href="http://morning-falls-40233.herokuapp.com/">
+              <a href="https://github.com/vvillbiii/Aliment">
                 <button className="github-link">Github</button>
               </a>
             </div>
